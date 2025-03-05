@@ -93,19 +93,22 @@
               <br>
               <tfoot>
                     <h3> Cat Form</h3>
-                    <form action="http://catform1.com" method="post">Is your cat an indoor or outdoor cat? 
+                    <form action="http://catform1.com" method="post"> <fieldset>
+                     <legend> Is your cat an indoor or outdoor cat? </legend>
                     <label for="catform1"></label>
                     <br>
                     <input type="radio" name="catform1" id="catform1" value="Indoor">Indoor
                     <label for="catform1"></label>
                     <input type="radio" name="catform1" id="catform1" value="outdoor">Outdoor
+                  </fieldset>
                     <br>
-                    <label for="catform2">What's your cat's personality?</label>
+                    <label for="catform2"><fieldset>
+                     <legend> What's your cat's personality?</legend></label>
                     <br>
                     <input type="checkbox" name="catform2" id="catform2" value="Loving">Loving
                     <input type="checkbox" name="catform2" id="catform2" value="Lazy">Lazy
                     <input type="checkbox" name="catform2" id="catform2" value="Energetic">Energetic
-                    
+                  </fieldset>
                     <br>
                     <label for="url"></label>
                     <input type="text" name="url" placeholder="cat photo URL">
